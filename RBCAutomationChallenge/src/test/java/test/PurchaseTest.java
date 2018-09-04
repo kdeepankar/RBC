@@ -84,7 +84,7 @@ public class PurchaseTest extends base {
 	@DataProvider
 	public Iterator<Object[]> getData() {
 
-		String path = "C:\\Users\\deepa\\eclipse-workspace\\RBCAutomationChallenge\\src\\main\\java\\resources\\TestData.xlsx";
+		String path = "src\\main\\java\\resources\\TestData.xlsx";
 		// create array list
 		ArrayList<Object[]> testData = DataEntry.getData(path);
 
